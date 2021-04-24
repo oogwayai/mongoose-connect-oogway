@@ -1,6 +1,6 @@
 {
   "name": "mongoose-connect-oogway",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helper to connect to mongo db",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.12.5"
+  },
+  "peerDependencies": {
+    "mongoose": "^5.12.5"
+  }
 }
